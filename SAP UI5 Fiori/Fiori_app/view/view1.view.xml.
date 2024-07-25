@@ -1,0 +1,123 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fiori.controller.view1"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form" xmlns:tab="sap.ui.table">
+	<Page title="View 1">
+		<headerContent>
+			<Button text="Go to view 2" press="vi1" icon="sap-icon://forward"></Button>
+		</headerContent>
+		
+		<content>
+			<SearchField></SearchField>
+			<Image src="data:image/jpeg;base64,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"></Image>
+			<Button text="Go to view 2" press="vi1" icon="sap-icon://media-forward"></Button>
+		</content>
+
+		<content>
+			<Title text="List types"></Title>
+			<List>
+				<items>
+					<DisplayListItem label="Valorant" value="game"></DisplayListItem>
+			
+					<StandardListItem title="Valorant" description="Game" info="free-to-play first-person tactical hero shooter developed and published by Riot Games" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/330px-Valorant_logo_-_pink_color_version.svg.png"></StandardListItem>
+					
+					<InputListItem label="Valorant">
+						<content>
+							<Input></Input>
+						</content>
+					</InputListItem>
+					
+					<CustomListItem>
+						<Label text="Valorant"></Label>
+						<Input></Input>
+					</CustomListItem>
+					
+					<ObjectListItem intro="Game" title="Valorant" number="5" numberUnit="player/team" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/330px-Valorant_logo_-_pink_color_version.svg.png">
+						<attributes>
+							<ObjectAttribute class="sapUiLargeMarginBegin" text="free-to-play first-person tactical hero shooter developed and published by Riot Games"></ObjectAttribute>
+							<ObjectAttribute title="Agent Types" text="Duelist, Controller, Sentinential, Initiator"></ObjectAttribute>
+							<ObjectAttribute title="Gun Types" text="Side arms, SMGs, Snipers Rifiles, Machine Guns, Melee"></ObjectAttribute>
+						</attributes>
+						<firstStatus>
+							<ObjectStatus text="4.5 rating" state="Success"></ObjectStatus>
+						</firstStatus>
+					</ObjectListItem>
+					
+					<FeedListItem  sender="Agent" text="Sage" info="Sentinels" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/330px-Valorant_logo_-_pink_color_version.svg.png"></FeedListItem>
+					
+					<ActionListItem text="Play now"></ActionListItem>
+				</items>
+			</List>
+			
+			
+		</content>
+
+		<content>
+			<tab:Table rows="{/fruits}" visibleRowCount="5" selectionMode="Single">
+				<tab:columns>
+					<tab:Column>
+						<tab:label>
+							<Label text="Name"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{name}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Price"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{price}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Benfit"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{benfit}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Type"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{type}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Availability"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{availability}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Color"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{color}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Pic"></Label>
+						</tab:label>
+						<tab:template>
+							<Image src="{pic}" width="100px" height="100px"></Image>
+						</tab:template>
+					</tab:Column>
+				</tab:columns>
+			</tab:Table>
+		</content>
+			
+	</Page>
+</mvc:View>
