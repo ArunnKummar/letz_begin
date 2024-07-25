@@ -1,0 +1,21 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+						 xmlns="sap.m">
+	<Table items="{/valorant}">
+		<columns>
+			<Column>
+				<Text text="Agent name"></Text>
+			</Column>
+			<Column>
+				<Text text="Role type"></Text>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Text text="{agentName}"></Text>
+					<Input  showValueHelp="true" valueHelpRequest="onHelp"></Input>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>
