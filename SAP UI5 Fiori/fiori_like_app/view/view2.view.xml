@@ -1,0 +1,50 @@
+<mvc:View xmlns:mvc="sap.ui.core"
+		  controllerName="fiorilike.controller.view2"
+		  xmlns="sap.m"
+		  xmlns:core="sap.ui.core">
+	
+	<Page showNavButton="true" navButtonPress="oLogout">
+		<headerContent>
+			<Button text="Next" icon="sap-icon://open-command-field" press="onMap"></Button>
+		</headerContent>
+		
+		<content>
+			<IconTabBar>
+				<items>
+					<IconTabFilter key="profile" text="Profile" icon="sap-icon://customer">
+						<content>
+							<core:Fragment fragmentName="fiorilike.fragments.profile" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					
+					<IconTabFilter key="data" text="Data" icon="sap-icon://area-chart">
+						<content>
+							<core:Fragment fragmentName="fiorilike.fragments.data" type="XML"></core:Fragment>	
+						</content>
+					</IconTabFilter>
+					
+					<IconTabFilter key="list" text="List" icon="sap-icon://status-inactive">
+						<content>
+							<core:Fragment fragmentName="fiorilike.fragments.list" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>	
+		</content>
+		
+		<content>
+			<Label text="{agentName}"></Label>
+			<Image src="{pic}"></Image>
+		</content>
+		
+		<footer>
+			<ToolbarSpacer></ToolbarSpacer>
+			<Toolbar>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button text="Login" type="Success" press="oLogin"></Button>
+				<Button text="Logout" type="Attention" press="oLogout"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+	
+</mvc:View>
