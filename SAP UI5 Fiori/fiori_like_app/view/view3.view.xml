@@ -1,0 +1,20 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fiorilike.controller.view3"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<Page title="Google Map">
+		<content>
+			<SearchField search="onSearchMap" liveChange="onSearchMap"></SearchField>
+			<core:HTML afterRendering="onRenderMap" content="&lt;div id=&quot;map&quot;&gt;&lt;/div&gt;"></core:HTML>
+		</content>
+		
+		<footer>
+			<ToolbarSpacer></ToolbarSpacer>
+			<Toolbar>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button text="Login" type="Success" press="oLogin"></Button>
+				<Button text="Logout" type="Attention" press="oLogout"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+	
+</mvc:View>
