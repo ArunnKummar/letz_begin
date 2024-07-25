@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+						xmlns="sap.m">
+	
+	<ComboBox items="{/valorant}">
+		<items>
+			<core:Item key="specialAbility" text="{specialAbility}"></core:Item>
+		</items>
+	</ComboBox>
+	<Button text="Agents" icon="sap-icon://blur" press="onPopUp"></Button>
+	
+</core:FragmentDefinition>
