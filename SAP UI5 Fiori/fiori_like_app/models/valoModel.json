@@ -1,0 +1,171 @@
+{
+	"valorant":[
+	{
+		"agentName":"Brimstone",
+		"roleType":"Controller",
+		"description":"Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+		"specialAbility":"Orbital Strike",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/51e62f3c74356a7501d06feba42ac643133257d7-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Phoenix",
+		"roleType":"Duelist",
+		"description":"Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
+		"specialAbility":"Run it back",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/47387e354c34d51b84066bc47af3c5755b92b9c5-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Sage",
+		"roleType":"Sentinal",
+		"description":"The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
+		"specialAbility":"Resurrection",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/58a180961a14beb631877921e647c233804853c1-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Sova",
+		"roleType":"Initiator",
+		"description":"Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
+		"specialAbility":"Hunter's Fury",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/08b3d8822544bd327ebed0768c8b90fcec83d1a5-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Viper",
+		"roleType":"Controller",
+		"description":"The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will.",
+		"specialAbility":"Viper's Pit",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/152244f121e61ca32bdd2bea9fc5370e315664fb-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Cypher",
+		"roleType":"Sentinal",
+		"description":"The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+		"specialAbility":"Neural Theft",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4a648cdbcbbeef137050deefeaf6a1369c606666-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Reyna",
+		"roleType":"Duelist",
+		"description":"Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
+		"specialAbility":"Empress",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7cb513c9b3eae3286449776e85753138436d553c-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Killjoy",
+		"roleType":"Sentinal",
+		"description":"The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.",
+		"specialAbility":"Lockdown",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/820d36d431fff77b1e1ece39ad6f007746bd31f6-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Breach",
+		"roleType":"Initiator",
+		"description":"Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+		"specialAbility":"Rolling Thunder",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e435c3378b7999a3338b408dbb5da8ba63f91150-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Omen",
+		"roleType":"Controller",
+		"description":"A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
+		"specialAbility":"From the Shadows",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/015a083717e9687de8a741cfceddb836775b5f9f-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Jett",
+		"roleType":"Duelist",
+		"description":"Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
+		"specialAbility":"Blade Strom",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d41286dc9017bf79c0b4d907b7a260c27b0adb69-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Raze",
+		"roleType":"Duelist",
+		"description":"Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of boom.",
+		"specialAbility":"Showstopper",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40b4b242b68afe30d21e7f95bdcacaebca46ea60-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Skye",
+		"roleType":"Initiator",
+		"description":"Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye’s side.",
+		"specialAbility":"Seekers",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/37ea1466beebb54aad4f16efbad184566cb80368-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Yoru",
+		"roleType":"Duelist",
+		"description":"Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
+		"specialAbility":"Dimensional Drift",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/05e1a996814dd10d7179efee327d29a7be00e912-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Astra",
+		"roleType":"Controller",
+		"description":"Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
+		"specialAbility":"Cosmic Divide",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ba51d43803082941b0274b66413b0acc972546dd-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Kayo",
+		"roleType":"Initiator",
+		"description":"KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
+		"specialAbility":"Null/CMD",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fe52e0efac73ec782b19a54e98a4658b03677407-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Chamber",
+		"roleType":"Sentinal",
+		"description":"Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+		"specialAbility":"Tour De Force",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/0f5b668b77499c0051201389d6ac5e7343c9727f-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Neon",
+		"roleType":"Duelist",
+		"description":"Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.",
+		"specialAbility":"Overdrive",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/14145d7bf9be17afa80c04ee4fbe200076cc1769-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Fade",
+		"roleType":"Initiator",
+		"description":"Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.",
+		"specialAbility":"Nightfall",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e7099cc13a665ed2b556d514e50984393ed49967-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Harbor",
+		"roleType":"Controller",
+		"description":"Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
+		"specialAbility":"Reckoning",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1246b5c517f6c8fa660e884a7032c1c54994003e-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Gekko",
+		"roleType":"Initiator",
+		"description":"Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.",
+		"specialAbility":"Thrash",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8d88f133f735f6a9077679b1ece754e5624c728e-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Deadlock",
+		"roleType":"Sentinal",
+		"description":"Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity.",
+		"specialAbility":"Annhilation",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/477284dfe402a85abcf6b07512bcd6f01c8fe60e-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Iso",
+		"roleType":"Duelist",
+		"description":"Chinese fixer for hire, Iso falls into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.",
+		"specialAbility":"Kill Contract",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2c35cef9c38283f8478d1e808b1c129f371e50b3-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Clove",
+		"roleType":"Controller",
+		"description":"Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away.",
+		"specialAbility":"Not dead yet",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9f02060077f9d61dbe89555a339e6231006d9b7b-616x822.png?auto=format&fit=fill&q=80&w=424"
+	}
+]}
