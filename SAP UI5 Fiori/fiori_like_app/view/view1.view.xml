@@ -1,0 +1,36 @@
+<mvc:View xmlns:mvc="sap.ui.core"
+		  controllerName="fiorilike.controller.view1"
+		  xmlns="sap.m"
+		  xmlns:core="sap.ui.core">
+	
+	
+	<Page>
+		<headerContent>
+			<Button text="Next" icon="sap-icon://open-command-field" press="onView3"></Button>
+		</headerContent>
+		
+		<content>
+			<Image width="100%" height="300px" src="https://www.gamechampions.com/media/2x3ffp5d/what-does-valorant-name-mean.webp"></Image>
+			<SearchField search="onSearch" liveChange="onSearch"></SearchField>
+			
+			<List items="{/valorant}" mode="SingleSelectMaster" selectionChange="onSelect" id="id_list">
+				<items>
+					<ObjectListItem intro="{roleType}" title="{agentName}" number="" numberUnit="" icon="{pic}">
+						<attributes>
+							<ObjectAttribute title="Description" text="{description}"></ObjectAttribute>
+							<ObjectAttribute title="Special Ability" text="{specialAbility}"></ObjectAttribute>
+						</attributes>
+					</ObjectListItem>
+				</items>
+			</List>	
+		</content>
+		
+		<footer>
+			<Toolbar>
+				<!--<ToolbarSpacer></ToolbarSpacer>
+				<Button text="Logout" press="oLogout" icon="sap-icon://fallback" type="Attention"></Button>-->
+			</Toolbar>
+		</footer>
+	</Page>
+	
+</mvc:View>
