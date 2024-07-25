@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Google Map</title>
+		
+		<script 
+		src="https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-theme="sap_horizon_dark"
+		data-sap-ui-resourceroots='{"googleMap":"./"}'></script>
+		
+		<script 
+		    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD83Znfwh5gSi1RRhUVElR-dO-0R0Wcmbo&loading=async&callback=initMap">
+		</script>
+		
+		<script>
+			var gMap = new sap.ui.view({
+				id:"idMapView",
+				viewName:"googleMap.view.map",
+				type:"JS"
+			});
+			gMap.placeAt("here");</script>
+	</head>
+	<body>
+		<div id="here"></div>
+	</body>
+</html>
