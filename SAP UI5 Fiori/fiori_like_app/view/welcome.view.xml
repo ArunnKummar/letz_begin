@@ -1,0 +1,18 @@
+<mvc:View xmlns:mvc="sap.ui.core"
+		  xmlns="sap.m"
+		  controllerName="fiorilike.controller.welcome"
+		  xmlns:form="sap.ui.layout.form">
+	
+	<Label text="Welcome to my App" design="Bold"></Label>
+	<form:SimpleForm>
+		<form:content>
+			<Text text="Username"></Text>
+			<Input id="inp1" value="arun"></Input>
+			<Text text="Password"></Text>
+			<Input id="inp2" value="arun@123" type="Password"></Input>
+			<Button text="Login" icon="sap-icon://visits" press="oLogin" type="Success"></Button>
+		</form:content>
+	</form:SimpleForm>
+	
+	
+</mvc:View>
