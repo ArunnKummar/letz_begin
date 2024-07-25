@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core"
+		  controllerName="fiorilike.controller.empty"
+		  xmlns="sap.m">
+	
+	<Page title="Welcome"></Page>
+	
+</mvc:View>
