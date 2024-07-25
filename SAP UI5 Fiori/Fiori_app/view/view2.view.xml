@@ -1,0 +1,92 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  controllerName="fiori.controller.view2"
+		  xmlns:core="sap.ui.core"
+		  xmlns="sap.m"
+		  xmlns:tab="sap.ui.table">
+	
+	<Page title="View 2" showNavButton="true" navButtonPress="vi2">
+		<headerContent>
+			<Button text="Go to view 3" press="vi3" icon="sap-icon://media-forward"></Button>
+		</headerContent>
+		
+		<content>
+			<Button text="Go to view 1" press="vi2" icon="sap-icon://media-rewind"></Button>	
+			<Image src="data:image/jpeg;base64,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"></Image>
+			<Button text="Go to view 3" press="vi3" icon="sap-icon://media-forward"></Button>	
+		</content>
+		
+		<content>
+			<Title text="City List function"></Title>
+			<SearchField search="onSearch" liveChange="onSearch"></SearchField>
+			<List id="myList" items="{/city}" mode="SingleSelectMaster" selectionChange="onPressItem" >
+				<items>
+					<ObjectListItem intro="{state}" title="{cityName}" icon="{pic}">
+						<attributes>
+							<ObjectAttribute title="Famous for" text="{famousFor}"></ObjectAttribute>
+						</attributes>
+						<firstStatus>
+							<ObjectStatus text="{remarks}" state="Warning"></ObjectStatus>
+						</firstStatus>
+					</ObjectListItem>
+				</items> 
+			</List> 
+		</content> 
+		
+		<content>
+			<tab:Table rows="{/city}" visibleRowCount="5" selectionMode="Single" visible="false">
+				<tab:columns>
+					<tab:Column>
+						<tab:label>
+							<Label text="City name"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{cityName}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="State"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{state}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Famous for"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{famousFor}"></Text>
+						</tab:template>
+					</tab:Column>	
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Remarks"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{remarks}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Pic"></Label>
+						</tab:label>
+						<tab:template>
+							<Image src="{pic}" width="100px" height="100px"></Image>
+						</tab:template>
+					</tab:Column>
+				</tab:columns>
+			</tab:Table>
+		</content>
+		
+		<footer>
+			<Toolbar></Toolbar>
+		</footer>
+		
+	</Page>
+	
+</mvc:View>
