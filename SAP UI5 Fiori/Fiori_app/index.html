@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Fiori App</title>
+		
+		<script 
+		src =  "https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-lib="sap.m"
+		data-sap-ui-theme="sap_horizon_dark"
+		data-sap-ui-resourceroots='{"fiori":"./"}'>
+		</script>
+		
+		<script>
+			var ofa = new sap.ui.view({
+				id:"idAppView",
+				viewName:"fiori.view.app",
+				type:"XML"
+			});
+			ofa.placeAt("here");
+		
+			/*var oCompCont = new sap.ui.core.ComponentContainer({
+				name:"fiori"
+			});
+			oCompCont.placeAt("here");*/
+		</script>
+	</head>
+	
+	<body>
+		<div id="here"></div>
+	</body>
+</html>
