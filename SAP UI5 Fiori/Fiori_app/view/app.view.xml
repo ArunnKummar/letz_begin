@@ -1,0 +1,10 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  controllerName="fiori.controller.app"
+		  xmlns="sap.m"
+		  xmlns:form="sap.ui.layout.form">
+	
+	<SplitApp id="myApp">
+		<!--<Button text="Welcome"></Button>-->	
+	</SplitApp>
+	
+</mvc:View>
