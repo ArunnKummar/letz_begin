@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+			xmlns="sap.m"
+			xmlns:form="sap.ui.layout.form"
+			xmlns:custCont="fiorilike.controls">
+	<form:SimpleForm>
+		<form:content>
+			<!--<custCont:customControl></custCont:customControl>-->
+			<custCont:customControl mario="Ok baby" coloor="red" bdr="3px solid blue"></custCont:customControl>
+			<custCont:buttonControl text="Im the button" onUp="onOnUP"></custCont:buttonControl>
+			
+			<Label text="Agent Name"></Label>
+			<Input value="{agentName}"></Input>
+			<Label text="Agent Role"></Label>
+			<Input value="{roleType}"></Input>
+		</form:content>
+	</form:SimpleForm>
+</core:FragmentDefinition>
