@@ -1,0 +1,49 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form" controllerName="fiori.controller.view3">
+	
+	<Page title="View 3" showNavButton="true" navButtonPress="vi4">
+		<content>
+			<Image src="{pic}"/>
+			<Label text="{remarks}"/>
+			
+			<ObjectHeader intro="{state}" title="{cityName}" icon="{pic}">
+				<attributes>
+					<ObjectAttribute text="{famousFor}"/>
+				</attributes>
+				<firstStatus>
+					<ObjectStatus text="{remarks}" state="Warning"/>
+				</firstStatus>
+			</ObjectHeader> 
+			
+			<IconTabBar id="iconBar">
+				<items>
+					<IconTabFilter key="city" text="City" icon="sap-icon://home">
+						<content>
+						    <core:Fragment fragmentName="fiori.fragments.city" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					
+					<IconTabFilter key="info" text="Info" icon="sap-icon://information">
+						<content>
+							<core:Fragment fragmentName="fiori.fragments.info" type="XML"></core:Fragment>	
+						</content>
+					</IconTabFilter>
+					
+					<IconTabFilter key="data" text="Data" icon="sap-icon://database">
+						<content>
+							<core:Fragment fragmentName="fiori.fragments.data" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button text="Accept" type="Accept" press="onAccept"></Button>
+				<Button text="Cancel" type="Reject" press="onCancel"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+
+</mvc:View>
