@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core"
+ 	    	xmlns:mvc="sap.ui.core.mvc" 
+    		xmlns="sap.m" 
+		    controllerName="fiorilike.controller.main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<SplitApp id="id_mainView">
+	</SplitApp>
+	
+	
+	
+</mvc:View>
