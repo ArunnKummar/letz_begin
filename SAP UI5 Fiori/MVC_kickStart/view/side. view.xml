@@ -1,0 +1,23 @@
+<op:View xmlns:op="sap.ui.core.mvc"
+	controllerName="mvcStart.controller.side"
+	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form">
+	
+	<Button id="btt" text="Click me" press="diss1"></Button>
+	<form:SimpleForm>
+		<form:content>
+			<Label text="Name"></Label>
+			<Input id="ii1" width="150px" value="james"></Input>
+			<Label text="Password"></Label>
+			<Input id="ii2" width="150px" type="Password"></Input> 
+			<Button id="bot" text="Login" press="vali" width="150px"></Button>
+		</form:content>
+	</form:SimpleForm>
+	
+	<Label text="Name"></Label>
+	<Input id="ii3" width="150px"></Input>
+	<Label text="Password"></Label>
+	<Input id="ii4" width="150px" type="Password"></Input> 
+	<Button id="botttt" text="Login" press="vali"></Button>
+	
+</op:View>
