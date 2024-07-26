@@ -1,0 +1,25 @@
+<mvc:view xmlns:mvc="sap.ui.core.mvc"
+	controllerName="avenger.controller.assemble"
+	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form">
+	
+	<App>
+		<Page title="Avenger Assemble">
+			<form:SimpleForm>
+				<form:content>
+					
+					<Label text="Character Name"></Label>
+					<Input width="200px" id="id_cName"></Input>
+						
+					<Label text="Hero Name"></Label>
+					<Input width="200px" id="id_hName"></Input>
+					
+				</form:content>
+			</form:SimpleForm>
+			
+			<Button id="id_bnt" text="Reveal" type="Attention" press="reveal" width="340px"></Button>
+			<Button id="id_bnt2" text="Flip" type="Attention" press="flip" width="340px"></Button>
+		</Page>
+	</App>
+	
+</mvc:view>
