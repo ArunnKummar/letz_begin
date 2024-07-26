@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Learning JS</title>
+		
+		<style>
+		</style>
+		<link href="cssStyling/L2_styling.css" rel="stylesheet" type="text/css">
+	
+		
+		<script src="javaScriptfunction/L2_javaFunction.js">
+		</script>
+		
+		<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	
+	</head>
+	
+	<body>
+		<lable>Name</lable>
+		<input>
+		<br>
+		<label>Age</label>
+		<input>
+		<br>
+		<label>Gender</label>
+		<input>
+		<br>
+		<input type="submit" onclick="window.alert('I submitted')">
+		<br>
+		<button onclick="window.alert('I clicked')">Click1</button>
+		<br>
+		<button onclick="testing()">Click2</button>
+		<br>
+		<button ondblclick="testing()">Click3</button>
+		<br>
+		<button onfocus="testing()">Click4</button>
+		<br>
+		<button onhover="testing()">Click5</button>
+		<br>
+		<button onmousedown="testing()">Click6</button>
+		<br>
+		<label>Password</label>
+		<input type="password" id="pwd">
+		
+		<h2>new list</h2>
+		<label>Name</label>
+		<input id="nN">
+		<br>
+		<label>Password</label>
+		<input type="password" id="pP">
+		<br>
+		<button onclick="testing2()">submit</button>
+		<br>
+		<label id="lL"></label>
+		<br>
+		<button onclick = "danceClick1()">Dance</button>
+		<button onclick = "danceClick2()">Dance</button>
+		
+		<h2>Change Color</h2>
+		<div class="box-box">
+			<div class = "box-head">
+				<h2>Html</h2>	
+			</div>
+			<div class= "box-content">
+				<p>Hyper Text Markup Language</p>	
+			</div>
+		</div>
+		
+		<div class="box-box">
+			<div class = "box-head">
+				<h2>CSS</h2>	
+			</div>
+			<div class= "box-content">
+				<p>Cascading Style Sheets</p>	
+			</div>
+		</div>
+		
+		<div class="box-box">
+			<div class = "box-head">
+				<h2>JS</h2>
+			</div>
+			<div class = "box-content">
+				<p>JavaScript</p>
+			</div>
+		</div>
+		
+		<div class="box-box">
+			<div class = "box-head">
+				<h2>JQ</h2>
+			</div>
+			<div class = "box-content">
+				<p>jQuery</p>
+			</div>
+		</div>
+		
+		<div style="clear:left"></div>
+		
+		<div>
+			<button onclick="changeColor()" ondblclick="changeColor2()">Click to change</button>
+		</div>
+		
+		<h2>Inserting</h2>
+		<div>
+			<button onclick ="insert()">Insert</button>
+		</div>
+		<div id="aruu"></div>
+		
+		<h2>Enter to insert</h2>
+		<input id="enter" placeholder="Enter">
+		<div>
+			<button onclick ="insertAnything()">Insert Anything</button>
+		</div>
+		<div id="aruuu"></div>
+		
+		<h2>Employee table</h2>
+		<div>
+			<label>Emp  id:</label>
+			<input id="id1" placeholder="empID">
+			<br>
+			<label>Employee Name:</label>
+			<input id="id2" placeholder="empName">
+			<br>
+			<button onclick="empadd()">Add</button>	
+		</div>
+		<div>
+			<table id="tT">
+				<thead id="header">
+					<tr>
+						<th>empId</th>
+						<th>empName</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="bodying">
+						<td><div id="taId"></div></td>
+						<td><div id="taNa"></div></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		
+	</body>
+</html>
