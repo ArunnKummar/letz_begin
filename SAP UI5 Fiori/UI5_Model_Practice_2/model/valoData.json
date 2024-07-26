@@ -1,0 +1,69 @@
+{
+	"profile": {
+		"name": "Arun",
+		"age": "24",
+		"gender": "male",
+		"gamer": true,
+		"disable":true
+	},
+	
+	"valo":[
+	{
+		"agentName":"KillJoy",
+		"agentType":"Sentential",
+		"favGun":"Vandal",
+		"ability":"lockDown",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/820d36d431fff77b1e1ece39ad6f007746bd31f6-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Neon",
+		"agentType":"Duelist",
+		"favGun":"Phantom",
+		"ability":"overDrive",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/14145d7bf9be17afa80c04ee4fbe200076cc1769-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Omen",
+		"agentType":"Controller",
+		"favGun":"Ghost",
+		"ability":"fromTheShadow",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/015a083717e9687de8a741cfceddb836775b5f9f-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Fade",
+		"agentType":"Initiator",
+		"favGun":"Bucky",
+		"ability":"knightFall",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e7099cc13a665ed2b556d514e50984393ed49967-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Gekko",
+		"agentType":"Initiator",
+		"favGun":"Gardian",
+		"ability":"trash",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8d88f133f735f6a9077679b1ece754e5624c728e-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Iso",
+		"agentType":"Dueslist",
+		"favGun":"Sherif",
+		"ability":"killContract",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2c35cef9c38283f8478d1e808b1c129f371e50b3-616x822.png?auto=format&fit=fill&q=80&w=424"
+	},
+	{
+		"agentName":"Clove",
+		"agentType":"Controller",
+		"favGun":"Specter",
+		"ability":"notDeadYet",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9f02060077f9d61dbe89555a339e6231006d9b7b-616x822.png?auto=format&fit=fill&q=80&w=424"
+	}
+	],
+	
+	"val":{
+		"agentName":"Sage",
+		"agentType":"Sentential",
+		"favGun":"Classic",
+		"ability":"resurrection",
+		"pic":"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/58a180961a14beb631877921e647c233804853c1-616x822.png?auto=format&fit=fill&q=80&w=424"
+	}
+}
