@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>UI5 Model</title>
+
+		<script
+		src = "https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-libs = "sap.m"
+		data-sap-ui-theme = "sap_horizon_dark"
+		data-sap-ui-resourceroots = '{"model":"./"}'
+		data-sap-ui-xx-bindingSyntax = "complex">
+		</script>
+		
+		<script>
+			var og = new sap.ui.view("ogg",{
+				viewName:"model.view.center",
+				type:"XML"
+			});
+			
+			og.placeAt("contentt");
+		</script>
+	</head>
+	
+	<body>
+		<div id="contentt"></div>
+	</body>
+</html>
