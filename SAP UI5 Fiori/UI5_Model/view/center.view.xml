@@ -1,0 +1,141 @@
+<mvc:view xmlns:mvc="sap.ui.core.mvc" 
+	controllerName="model.controller.center" 
+	xmlns="sap.m" 
+	xmlns:form="sap.ui.layout.form"
+	xmlns:tab="sap.ui.table"
+	xmlns:core="sap.ui.core">
+	
+	<App>
+		<Page title = "Valorant Table">
+			<tab:Table rows="{/valoTable}" visibleRowCount="7" selectionMode="Single" rowSelectionChanges="onRowSelect">
+				<tab:columns>
+					<tab:Column>
+						<tab:label>
+							<Label text="Agent Type"></Label>
+						</tab:label>
+						<tab:template>
+							<!--<Text text="{agentType}"></Text>-->
+							<Select selectedkey="{agentType}">
+								<items>
+									<core:Item key="Duelist" text="Duelist"></core:Item>
+									<core:Item key="Sentiential" text="Sentiential"></core:Item>
+									<core:Item key="Controller" text="Controller"></core:Item>
+									<core:Item key="Iniatatior" text="Iniatatior"></core:Item>
+								</items>
+							</Select>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Agent Name"></Label>
+						</tab:label>
+						<tab:template>
+							<Input value="{
+								path:'agentName',
+								formatter:'.formatter.toUp'
+								}">
+							</Input>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Favourite Map"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{favMap}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Favourite Gun"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{favGun}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Female"></Label>
+						</tab:label>
+						<tab:template>
+							<CheckBox selected="{female}"></CheckBox>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column> 
+						<tab:label>
+							<Label text="Image"></Label>
+						</tab:label>
+						<tab:template>
+							<Image src="{image}" width="75px" height="75px"></Image>
+						</tab:template>
+					</tab:Column>
+					
+				</tab:columns>
+			</tab:Table>
+			<Button text="Insert" press="idInsert"></Button>
+			
+		</Page>
+	</App>
+	
+	<App>
+		<Page title="UI5 Model">
+			<form:SimpleForm id="idSF">
+				<form:content>
+					<Label text="Game Name"></Label>
+					<Input width="150px" value="{gameName}" enabled="false"></Input>
+					
+					<Label text="Agent Type"></Label>
+					<Input width="150px" id="idAgent"  enabled="{/valo/disable}"></Input>
+					
+					<Label text="Agent Name"></Label>
+					<Input width="150px" value="{agentName}" enabled="{/valo/disable}"></Input>
+					
+					<Label text="Map"></Label>
+					<Input width="150px"  id="idMap"  enabled="{/valo/disable}"></Input>
+					
+					<Label text="Gun"></Label>
+					<Input width="150px"  value="{favGun}" enabled="{/valo/disable}"></Input>
+					
+					<Label text="Female"></Label>
+					<Input width="150px"  value="{female}"  enabled="{/valo/disable}"></Input>
+					
+					<Label text="Prize"></Label>
+					<Input width="150px"  value="{prize}" enabled="{= ${/valo/prize} > 5000 ? false : true}"></Input>
+					
+					<Label text="Game play"></Label>
+					<Input width="150px" id="idPlay"></Input>
+					
+					<Button width="150px" text="Play me" press="oPlay" type="Success"></Button>
+					<Button width="150px" text="Disable me" press="oDisable"></Button>
+				</form:content>
+			</form:SimpleForm>
+		</Page>	
+	</App>
+	<!--
+	value="{agentType}"
+	value="{favMap}"-->
+	<App>
+		<Page title="XML Model and Resource Model">
+			<form:SimpleForm>
+				<form:content>
+					<Label text="{i18n>XLBL_AGTNA}"></Label>
+					<Input width="150px" value="{xmlValo>valo/agentName}"></Input>
+					
+					<Label text="{i18n>XLBL_AGTTY}"></Label>
+					<Input width="150px" value="{xmlValo>/valo/row/agentType}"></Input>
+					
+					<Label text="{i18n>XLBL_FAVMP}"></Label>
+					<Input width="150px" value="{xmlValo>/row/favMap}"></Input>
+					
+					<Label text="{i18n>XLBL_FAVGN}"></Label>
+					<Input width="150px" value="{xmlValo>row/favGun}"></Input>
+				</form:content>
+			</form:SimpleForm>
+		</Page>
+	</App>
+</mvc:view>
