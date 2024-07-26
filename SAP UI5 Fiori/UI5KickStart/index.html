@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--UI5-->
+		<script  
+		src="https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-theme="sap_horizon"
+		data-sap-ui-resourceroots='{"queen":"./"}'>
+		</script>
+		
+		<script>
+			var oSee = new sap.ui.view("gg",{
+				viewName: "queen.view.main",
+				type:"JS"
+			});
+			
+			oSee.placeAt("oo");
+		</script>
+	</head>
+	
+	<body>
+		<div id="oo"></div>
+	</body>
+</html>
