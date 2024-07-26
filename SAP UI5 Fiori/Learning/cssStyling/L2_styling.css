@@ -1,0 +1,70 @@
+.box-head{
+				color:orange;
+				background:red;
+				border: 5px groove yellow;
+				text-align:center;
+				margin:5px;
+				padding:5px;
+			}
+			
+			.box-content{
+				color:magenta;
+				background:cyan;
+				border: 5px groove yellow;
+				margin:5px;
+				padding:5px;				
+			}
+			
+			.box-box{
+				border:5px dotted green;
+				float:left;
+			}
+			
+			input:FOCUS{
+				background:yellow;
+			}
+			
+			#nN:focus{
+				background:cyan;
+			}
+			
+			#pP:focus{
+				background:pink;
+			}
+			
+			#lL{
+				color:red;
+			}
+			
+			table{
+				border:2px solid black;
+				border-collapse:collapse;
+			}
+			
+			#tT th{
+				background:brown;
+				color:white;
+				border:2px solid Black;
+			}
+			/*
+			#tT tr:nth-child(even){
+				background:white;
+				color:pink;
+			}
+			*/
+			/*#tT tr:nth-child(odd){
+				background:pink;
+				color:white;
+			}*/
+			
+			#taId{
+				background:pink;
+				color:white;
+				border:2px solid Black;
+			}
+			
+			#taNa{
+				background:white;
+				color:pink;
+				border:2px solid Black;
+			}
