@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>MVC</title>
+		
+		<script 
+		src = "https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-theme = "sap_horizon"
+		data-sap-ui-libs = "sap.m, sap.ui.layout"
+		data-sap-ui-resourceroots = '{"mvcStart": "./"}'>
+		</script>
+		
+		<script>
+			var peso = new sap.ui.view("ov",{
+				viewName:"mvcStart.view.lead",
+				type:"JS"
+			});
+			
+			
+			var seso = new sap.ui.view("vo",{
+				viewName:"mvcStart.view.side",
+				type:"XML"
+			});
+			
+			seso.placeAt("content1");
+		</script>
+	</head>
+	
+	<body>
+		<div id = "content1"></div>
+	</body>
+</html>
