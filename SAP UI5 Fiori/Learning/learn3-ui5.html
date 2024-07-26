@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--UI5-->
+		<script  
+		src="https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-theme="sap_horizon">
+		</script>
+		
+		<script>
+			var butt = new sap.m.Button("id_b",{
+				text:"touch me",
+				press: function blinkk(){
+					$("#id_b").fadeOut(2000)
+				}
+			});
+			butt.placeAt("aa");
+			
+			/*var log = new sap.m.Button("gg",{
+				text:"login",function(){
+					if(sap.m.input(in1) == "arun" && sap.m.input(in2) == "Arun@123")
+					{
+						document.write("Login Sucessful");
+					}
+					else
+					{
+						window.alert("Invalid Credentials");
+					}
+				}
+			});
+			log.placeAt("lL");*/
+			
+			/*var inn1 = sap.m.input;
+			var inn2 = sap.m.input;
+			inn1.placeAt("in1");
+			inn1.placeAt("in2");*/
+			
+		
+		</script>
+		
+		<style>
+			#mmyy{
+				background:pink;
+			}
+			
+			#id_b{
+				background:red;
+			}
+		</style>
+		
+	</head>
+	<body id="mmyy">
+		<div id="aa"></div>
+		
+		<div id="nN">Name</div>
+		<input id="in1">
+		<div id="pP">Password</div>
+		<input id="in2" type="password">
+		<div id="lL"></div>
+		
+	</body>
+</html>
