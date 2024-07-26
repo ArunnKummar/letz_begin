@@ -1,0 +1,111 @@
+.boxhead{
+				color:white;
+				background:orange;
+				border: 10px double rgb(24,118,225);
+			}
+			
+			.boxbody{
+				color:white;
+				background:rgb(0,255,0);
+				border: 10px double rgb(24,118,225);
+				padding:5px;
+			}
+			
+			.box{
+				background:red;
+				border:5px dashed yellow;
+			}
+			
+			.box-head{
+				color:orange;
+				background:red;
+				border: 5px groove yellow;
+				text-align:center;
+				margin:5px;
+				padding:5px;
+			}
+			
+			.box-content{
+				color:magenta;
+				background:cyan;
+				border: 5px groove yellow;
+				margin:5px;
+				padding:5px;				
+			}
+			
+			.box-box{
+				border:5px dotted green;
+				float:left;
+			}
+			
+			input:FOCUS{
+				background:yellow;
+			}
+			
+			input:HOVER{
+				width:50px;
+				height:50px;
+			}
+			
+			.pic img{
+				width:400px;
+				height:250px;
+				float:left;
+				opacity:50%;
+				
+			}
+			
+			.pic img:hover{
+				border:5px solid red;
+				opacity:100%;
+				width:420px;
+				height:280px;
+			}
+			
+			.mylist{
+				list-style:none;
+				float:left;
+				border:5px solid yellow;
+				padding:10px;
+				margin:5px;
+				font-family:Brush Script MT;
+				font-size:50px;
+				text-align:center;
+				width:300px;
+				color:white;
+				background:orange;
+				text-transform:uppercase;
+			}
+			
+			.mylist:hover{
+				border:5px solid red;
+			}
+			
+			#music table,#music td,#music th{
+				border:2px solid black;
+				text-align:center;	
+			}
+			
+			#details table,#details td,#details th{
+				background:cyan;
+				border:2px solid black;
+				text-align:center;
+				/*border-collapse:collapse;*/
+				
+			}
+			
+			 table{
+				border-collapse:collapse;
+			}
+			
+			#music tr:nth-child(even){
+				background:cyan;
+			}
+			
+			#music tr:nth-child(odd){
+				background:orange;
+			}
+			
+			#music th{
+				background:pink;
+			}
