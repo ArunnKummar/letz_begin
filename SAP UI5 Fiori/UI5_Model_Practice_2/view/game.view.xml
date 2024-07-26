@@ -1,0 +1,111 @@
+<mvc:view xmlns:mvc="sap.ui.core.mvc"
+		  controllerName="valo.controller.game" 
+		  xmlns="sap.m"
+		  xmlns:form="sap.ui.layout.form"
+		  xmlns:tab="sap.ui.table"
+		  xmlns:core="sap.ui.core">
+	
+	<App>
+		<Page title="PROFILE">
+			<form:SimpleForm>
+				<form:content>
+					<Label text="Name"></Label>
+					<Input width="200px" value="{/profile/name}" enabled="{/profile/disable}"></Input>
+					
+					<Label text="Age"></Label>
+					<Input width="200px" enabled="{= ${/profile/age} > 18 ? true : false}"></Input>
+					
+					<Label text="Gamer"></Label>
+					<CheckBox selected="{/profile/gamer}"></CheckBox>
+					
+					<Label text="Gender"></Label>
+					<Select width="200px" selectkey="{/profile/gender}">
+						<core:Item key="male" text="male"></core:Item>
+						<core:Item key="female" text="female"></core:Item>
+					</Select>
+					
+					<Button text="Disable name" press="diss"></Button>
+				</form:content>
+			</form:SimpleForm>
+		</Page>
+	</App>
+	
+	<App>
+		<Page title="VALORANT">
+			<tab:Table rows="{/valo}" visibleRowCount="3" selectionMode="Single" rowSelectionChanges="onRowSelect">
+				<tab:columns>
+					<tab:Column>
+						<tab:label>
+							<Label text="Agent name"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{agentName}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Agent type"></Label>
+						</tab:label>
+						<tab:template>
+							<Select selectkey="{agentType}">
+								<core:Item key="Duelist" text="Duelist"></core:Item>
+								<core:Item key="Sentential" text="Sentential"></core:Item>
+								<core:Item key="Controller" text="Controller"></core:Item>
+								<core:Item key="Initiator" text="Initiator"></core:Item>
+							</Select>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Fav gun"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{favGun}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Ability"></Label>
+						</tab:label>
+						<tab:template>
+							<Text text="{ability}"></Text>
+						</tab:template>
+					</tab:Column>
+					
+					<tab:Column>
+						<tab:label>
+							<Label text="Pic"></Label>
+						</tab:label>
+						<tab:template>
+							<Image src="{pic}" width="100px" height="100px"></Image>
+						</tab:template>
+					</tab:Column>
+				</tab:columns>
+			</tab:Table>
+			
+			<form:SimpleForm id="idSF">
+				<form:content>
+					<Label text="Agent name"></Label>
+					<Input width="300px" value="{/val/agentName}"></Input>
+					
+					<Label text="Agent type"></Label>
+					<Input width="300px" value="{/val/agentType}"></Input>
+					
+					<Label text="Fav gun"></Label>
+					<Input width="300px" value="{/val/favGun}"></Input>
+					
+					<Label text="Ability"></Label>
+					<Input width="300px" value="{/val/ability}"></Input>
+					
+					<Button text="insert" press="idInsert" type="Attention"></Button>
+					
+				</form:content>
+			</form:SimpleForm>
+			
+		</Page>
+	</App>
+	
+</mvc:view>
