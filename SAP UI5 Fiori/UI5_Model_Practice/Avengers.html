@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Practice UI5 model</title>
+		<script
+		src = "https://ui5.sap.com/1.124.0/resources/sap-ui-core.js"
+		data-sap-ui-libs = "sap.m"
+		data-sap-ui-theme = "sap_horizon"
+		data-sap-ui-resourceroots = '{"avenger":"./"}'>
+		</script>
+		
+		<script>
+			var avenn = new sap.ui.view({
+				viewName : "avenger.view.assemble",
+				type:"XML"
+			});
+			
+			avenn.placeAt("here");
+		</script>
+	</head>
+	
+	<body>
+		<div id="here"></div>
+	</body>
+</html>
